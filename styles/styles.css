@@ -252,6 +252,7 @@ color: #627382;
     font-weight: 500px;
     background-color: #469165;
     border: none;
+    cursor: pointer;
     padding: 16.5px 46px 16.5px 16px;
   }
   .get-button img{
