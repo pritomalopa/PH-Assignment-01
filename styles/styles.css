@@ -9,18 +9,13 @@
 }
 
 
-
-
 .navbar{
     display: flex;
-    justify-items: center;
+    justify-content: space-around;
 }
 .logo{
     max-width: 133px;
-    margin-left: 120px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-
+    padding: 16px 120px;
 }
 
 nav .menu ul{
@@ -28,18 +23,16 @@ nav .menu ul{
     max-width: 365px;
     list-style-type: none;
     gap: 32px;
-
+   padding-top: 33px;
 }
 nav .menu ul li a{
-    display: inline;
     text-decoration: none;
     color:#000000;
     cursor: pointer;
+
 }
 .menu{
     max-width: 365px;
-    margin-top: 17px;
-    margin-bottom: 17px;
     margin-left: 349px;
  }
 
@@ -62,11 +55,11 @@ nav .menu ul li a{
  .banner{
     background-image: url("/assets/hero-bg.png");
     max-width: 1600px;
-    max-height: 674px;
+
  }
  .banner .container{
     max-width: 1360px;
-    padding: 115.5px 120px 179.5px 120px; 
+    padding: 115.5px 120px 179.5px ; 
     text-align: center;
     align-items: center;
  }
@@ -105,6 +98,7 @@ padding: 8px 12px;
 border-radius: 4px;
 cursor: pointer;
  }
+  
  .container .works-see{
     max-width: 198px;
     border-radius: 4px;
@@ -246,14 +240,29 @@ margin-bottom: 61px;
 color: #627382;
   }
 
-  .get-button{
+  .think-box .get-button{
     margin-bottom: 16px;
-    margin: 0 auto;
+    max-width: 776px;
+    margin: 24px auto;
   }
+  .get-button .bttn{
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-weight: 500px;
+    background-color: #469165;
+    border: none;
+    padding: 16.5px 46px 16.5px 16px;
+  }
+  .get-button img{
+    max-width: 20px;
+  }
+
 .line p{
     font-size: 18px;
     line-height: 20px;
     color: #627382;
+    margin-bottom: 80px;
 }
  .bg{
     max-width: 1600px;
